@@ -3,18 +3,12 @@
 import Vue from 'vue';
 import App from './App';
 import router from 'vue-router';
-import HelloWorld from "./components/HelloWorld";
+import rt from './router/index';
 
 Vue.use(router)
 Vue.config.productionTip = false
 
-//配置路由
-var rt = new router({
-  routes:[{
-    path: '/hello',
-    component: HelloWorld
-  }]
-})
+
 
 /* eslint-disable no-new */
 new Vue({
