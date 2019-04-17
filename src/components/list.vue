@@ -1,8 +1,7 @@
 <template>
   <ul>
-    <li>
-      <router-link to="/helloWorld"> Hello World</router-link>
-    </li>
+    <router-link to="/helloWorld"> Hello World</router-link>
+    <hr>
     <router-link to="/helloEarth"> Hello Earth</router-link>
   </ul>
 </template>
